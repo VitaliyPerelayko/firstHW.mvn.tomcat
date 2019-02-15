@@ -7,15 +7,10 @@
     <version>0.1.0</version>
   </parent>
 
-  <groupId>com.vit</groupId>
   <artifactId>web</artifactId>
   <packaging>war</packaging>
   <version>1.0</version>
   <name>web Maven Webapp</name>
   <url>http://maven.apache.org</url>
-
-  <build>
-    <finalName>web</finalName>
-  </build>
 
 </project>
