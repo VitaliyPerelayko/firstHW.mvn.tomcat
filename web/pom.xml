@@ -13,20 +13,4 @@
   <name>web Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
-  <build>
-    <finalName>web</finalName>
-    <plugins>
-      <plugin>
-      <groupId>org.apache.tomcat.maven</groupId>
-      <artifactId>tomcat7-maven-plugin</artifactId>
-      <version>2.2</version>
-      <configuration>
-        <url>http://localhost:8081/manager/text</url>
-        <server>TomcatServer</server>
-        <path>/helloWorld</path>
-      </configuration>
-    </plugin>
-    </plugins>
-  </build>
-
 </project>
